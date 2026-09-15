@@ -11,9 +11,9 @@ replace (
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
-	github.com/mimokpl/kratos-transport/broker v1.3.3
-	github.com/mimokpl/kratos-transport/broker/redis v1.3.3
-	github.com/mimokpl/kratos-transport/testing v1.1.2
+	github.com/mimokpl/kratos-transport/broker v1.1.1
+	github.com/mimokpl/kratos-transport/broker/redis v1.1.1
+	github.com/mimokpl/kratos-transport/testing v1.1.1
 )
 
 require (
@@ -24,7 +24,7 @@ require (
 	github.com/gomodule/redigo v1.9.3 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.29.0 // indirect
-	github.com/mimokpl/kratos-transport/tracing v1.1.2 // indirect
+	github.com/mimokpl/kratos-transport/tracing v1.1.1 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel v1.43.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.43.0 // indirect

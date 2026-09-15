@@ -15,8 +15,8 @@ require (
 	github.com/gorilla/mux v1.8.1
 	github.com/quic-go/quic-go v0.59.0
 	github.com/stretchr/testify v1.11.1
-	github.com/mimokpl/kratos-transport/testing v1.1.2
-	github.com/mimokpl/kratos-transport/transport v1.3.4
+	github.com/mimokpl/kratos-transport/testing v1.1.1
+	github.com/mimokpl/kratos-transport/transport v1.1.1
 )
 
 require (
@@ -31,8 +31,8 @@ require (
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.29.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/quic-go/qpack v0.6.0 // indirect
-	github.com/mimokpl/kratos-transport/broker v1.3.3 // indirect
-	github.com/mimokpl/kratos-transport/tracing v1.1.2 // indirect
+	github.com/mimokpl/kratos-transport/broker v1.1.1 // indirect
+	github.com/mimokpl/kratos-transport/tracing v1.1.1 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel v1.43.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.43.0 // indirect

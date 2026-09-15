@@ -15,12 +15,12 @@ require (
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/segmentio/kafka-go v0.4.51
 	github.com/stretchr/testify v1.11.1
-	github.com/mimokpl/kratos-transport/broker v1.3.3
-	github.com/mimokpl/kratos-transport/broker/kafka v1.3.9
-	github.com/mimokpl/kratos-transport/testing v1.1.2
-	github.com/mimokpl/kratos-transport/tracing v1.1.2
-	github.com/mimokpl/kratos-transport/transport v1.3.4
-	github.com/mimokpl/kratos-transport/transport/keepalive v1.3.4
+	github.com/mimokpl/kratos-transport/broker v1.1.1
+	github.com/mimokpl/kratos-transport/broker/kafka v1.1.1
+	github.com/mimokpl/kratos-transport/testing v1.1.1
+	github.com/mimokpl/kratos-transport/tracing v1.1.1
+	github.com/mimokpl/kratos-transport/transport v1.1.1
+	github.com/mimokpl/kratos-transport/transport/keepalive v1.1.1
 	go.opentelemetry.io/otel v1.43.0
 	go.opentelemetry.io/otel/trace v1.43.0
 )
