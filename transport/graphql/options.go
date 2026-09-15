@@ -1,0 +1,78 @@
+package graphql
+
+import (
+	"crypto/tls"
+	"net"
+	"time"
+
+	"github.com/go-kratos/kratos/v2/middleware"
+	kHttp "github.com/go-kratos/kratos/v2/transport/http"
+)
+
+type ServerOption func(*Server)
+
+func WithNetwork(network string) ServerOption {
+	return func(s *Server) {
+		s.network = network
+	}
+}
+
+func WithAddress(addr string) ServerOption {
+	return func(s *Server) {
+		s.address = addr
+	}
+}
+
+func WithTimeout(timeout time.Duration) ServerOption {
+	return func(s *Server) {
+		s.timeout = timeout
+	}
+}
+
+func WithTLSConfig(c *tls.Config) ServerOption {
+	return func(o *Server) {
+		o.tlsConf = c
+	}
+}
+
+func WithListener(lis net.Listener) ServerOption {
+	return func(s *Server) {
+		s.lis = lis
+	}
+}
+
+func WithStrictSlash(strictSlash bool) ServerOption {
+	return func(o *Server) {
+		o.strictSlash = strictSlash
+	}
+}
+
+func WithMiddleware(m ...middleware.Middleware) ServerOption {
+	return func(o *Server) {
+		o.ms = m
+	}
+}
+
+func WithFilter(filters ...kHttp.FilterFunc) ServerOption {
+	return func(o *Server) {
+		o.filters = filters
+	}
+}
+
+func WithRequestDecoder(dec kHttp.DecodeRequestFunc) ServerOption {
+	return func(o *Server) {
+		o.dec = dec
+	}
+}
+
+func WithResponseEncoder(en kHttp.EncodeResponseFunc) ServerOption {
+	return func(o *Server) {
+		o.enc = en
+	}
+}
+
+func WithErrorEncoder(en kHttp.EncodeErrorFunc) ServerOption {
+	return func(o *Server) {
+		o.ene = en
+	}
+}
