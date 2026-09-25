@@ -12,10 +12,10 @@ require (
 	github.com/apache/pulsar-client-go v0.19.0
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/google/uuid v1.6.0
+	github.com/mimokpl/kratos-transport/broker v1.9.1
+	github.com/mimokpl/kratos-transport/testing v1.9.1
+	github.com/mimokpl/kratos-transport/tracing v1.9.1
 	github.com/stretchr/testify v1.11.1
-	github.com/mimokpl/kratos-transport/broker v1.9.0
-	github.com/mimokpl/kratos-transport/testing v1.9.0
-	github.com/mimokpl/kratos-transport/tracing v1.9.0
 	go.opentelemetry.io/otel v1.44.0
 	go.opentelemetry.io/otel/trace v1.44.0
 )
@@ -43,6 +43,7 @@ require (
 	github.com/hamba/avro/v2 v2.31.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/klauspost/compress v1.18.5 // indirect
+	github.com/mimokpl/kratos-bootstrap/logger v1.9.1
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee // indirect
 	github.com/mschoch/smat v0.2.0 // indirect
@@ -92,3 +93,5 @@ require (
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v6 v6.4.0 // indirect
 )
+
+replace github.com/mimokpl/kratos-bootstrap/logger => /Users/sec/codes/mimokpl/mimox/relys/kratos-bootstrap/logger

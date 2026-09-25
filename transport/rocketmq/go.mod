@@ -13,12 +13,12 @@ replace (
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
+	github.com/mimokpl/kratos-transport/broker v1.9.1
+	github.com/mimokpl/kratos-transport/broker/rocketmq v1.9.1
+	github.com/mimokpl/kratos-transport/testing v1.9.1
+	github.com/mimokpl/kratos-transport/transport v1.9.1
+	github.com/mimokpl/kratos-transport/transport/keepalive v1.9.1
 	github.com/stretchr/testify v1.11.1
-	github.com/mimokpl/kratos-transport/broker v1.9.0
-	github.com/mimokpl/kratos-transport/broker/rocketmq v1.9.0
-	github.com/mimokpl/kratos-transport/testing v1.9.0
-	github.com/mimokpl/kratos-transport/transport v1.9.0
-	github.com/mimokpl/kratos-transport/transport/keepalive v1.9.0
 	go.opentelemetry.io/otel v1.43.0
 	go.opentelemetry.io/otel/trace v1.43.0
 )
@@ -52,6 +52,8 @@ require (
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/klauspost/compress v1.18.5 // indirect
 	github.com/leodido/go-urn v1.4.0 // indirect
+	github.com/mimokpl/kratos-bootstrap/logger v1.9.1
+	github.com/mimokpl/kratos-transport/tracing v1.9.1 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/natefinch/lumberjack v2.0.0+incompatible // indirect
@@ -63,7 +65,6 @@ require (
 	github.com/tidwall/gjson v1.18.0 // indirect
 	github.com/tidwall/match v1.2.0 // indirect
 	github.com/tidwall/pretty v1.2.1 // indirect
-	github.com/mimokpl/kratos-transport/tracing v1.9.0 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.70.0 // indirect
 	github.com/valyala/fastrand v1.1.0 // indirect
@@ -93,3 +94,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	stathat.com/c/consistent v1.0.0 // indirect
 )
+
+replace github.com/mimokpl/kratos-bootstrap/logger => /Users/sec/codes/mimokpl/mimox/relys/kratos-bootstrap/logger

@@ -6,8 +6,8 @@ replace github.com/mimokpl/kratos-transport/tracing => ../../tracing
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
+	github.com/mimokpl/kratos-transport/tracing v1.9.1
 	github.com/stretchr/testify v1.11.1
-	github.com/mimokpl/kratos-transport/tracing v1.9.0
 	go.opentelemetry.io/otel v1.43.0
 	go.opentelemetry.io/otel/trace v1.43.0
 	go.temporal.io/api v1.62.9
@@ -26,6 +26,7 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware/v2 v2.3.2 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.29.0 // indirect
+	github.com/mimokpl/kratos-bootstrap/logger v1.9.1
 	github.com/nexus-rpc/sdk-go v0.6.0 // indirect
 	github.com/openzipkin/zipkin-go v0.4.3 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
@@ -51,3 +52,5 @@ require (
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/mimokpl/kratos-bootstrap/logger => /Users/sec/codes/mimokpl/mimox/relys/kratos-bootstrap/logger

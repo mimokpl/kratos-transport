@@ -16,7 +16,7 @@ import (
 	semConv "go.opentelemetry.io/otel/semconv/v1.12.0"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/go-kratos/kratos/v2/log"
+	log "github.com/mimokpl/kratos-bootstrap/logger"
 
 	"github.com/mimokpl/kratos-transport/broker"
 	rocketmqOption "github.com/mimokpl/kratos-transport/broker/rocketmq/option"

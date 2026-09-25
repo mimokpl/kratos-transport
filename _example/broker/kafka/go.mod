@@ -11,9 +11,9 @@ replace (
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
-	github.com/mimokpl/kratos-transport/broker v1.9.0
-	github.com/mimokpl/kratos-transport/broker/kafka v1.9.0
-	github.com/mimokpl/kratos-transport/testing v1.9.0
+	github.com/mimokpl/kratos-transport/broker v1.9.1
+	github.com/mimokpl/kratos-transport/broker/kafka v1.9.1
+	github.com/mimokpl/kratos-transport/testing v1.9.1
 )
 
 require (
@@ -24,9 +24,10 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.29.0 // indirect
 	github.com/klauspost/compress v1.18.5 // indirect
+	github.com/mimokpl/kratos-bootstrap/logger v1.9.1
+	github.com/mimokpl/kratos-transport/tracing v1.9.1 // indirect
 	github.com/pierrec/lz4/v4 v4.1.26 // indirect
 	github.com/segmentio/kafka-go v0.4.51 // indirect
-	github.com/mimokpl/kratos-transport/tracing v1.9.0 // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
 	github.com/xdg-go/scram v1.2.0 // indirect
 	github.com/xdg-go/stringprep v1.0.4 // indirect
@@ -48,3 +49,5 @@ require (
 	google.golang.org/grpc v1.80.0 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 )
+
+replace github.com/mimokpl/kratos-bootstrap/logger => /Users/sec/codes/mimokpl/mimox/relys/kratos-bootstrap/logger

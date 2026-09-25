@@ -1,11 +1,14 @@
 package asynq
 
 import (
+	"context"
 	"crypto/tls"
+	"fmt"
+	"os"
 	"time"
 
 	"github.com/go-kratos/kratos/v3/encoding"
-	"github.com/go-kratos/kratos/v2/log"
+	log "github.com/mimokpl/kratos-bootstrap/logger"
 	"github.com/hibiken/asynq"
 )
 
@@ -294,9 +297,33 @@ func WithLocation(name string) ServerOption {
 	}
 }
 
+// asynqLoggerAdapter 把项目 logger.Helper 适配为 hibiken/asynq.Logger。
+type asynqLoggerAdapter struct{ l *log.Helper }
+
+func (a asynqLoggerAdapter) Debug(args ...any) {
+	a.l.Debug(context.Background(), fmt.Sprint(args...))
+}
+
+func (a asynqLoggerAdapter) Info(args ...any) {
+	a.l.Info(context.Background(), fmt.Sprint(args...))
+}
+
+func (a asynqLoggerAdapter) Warn(args ...any) {
+	a.l.Warn(context.Background(), fmt.Sprint(args...))
+}
+
+func (a asynqLoggerAdapter) Error(args ...any) {
+	a.l.Error(context.Background(), fmt.Sprint(args...))
+}
+
+func (a asynqLoggerAdapter) Fatal(args ...any) {
+	a.l.Error(context.Background(), fmt.Sprint(args...))
+	os.Exit(1)
+}
+
 func WithLogger(log *log.Helper) ServerOption {
 	return func(s *Server) {
-		s.schedulerOpts.Logger = log
+		s.schedulerOpts.Logger = asynqLoggerAdapter{l: log}
 	}
 }
 

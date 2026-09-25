@@ -12,8 +12,8 @@ replace (
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
+	github.com/mimokpl/kratos-transport/transport v1.9.1
 	github.com/philippseith/signalr v0.8.0
-	github.com/mimokpl/kratos-transport/transport v1.9.0
 )
 
 require (
@@ -29,12 +29,13 @@ require (
 	github.com/go-playground/form/v4 v4.3.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.29.0 // indirect
+	github.com/mimokpl/kratos-bootstrap/logger v1.9.1
+	github.com/mimokpl/kratos-transport/broker v1.9.1 // indirect
+	github.com/mimokpl/kratos-transport/tracing v1.9.1 // indirect
 	github.com/quic-go/qpack v0.6.0 // indirect
 	github.com/quic-go/quic-go v0.59.0 // indirect
 	github.com/quic-go/webtransport-go v0.10.0 // indirect
 	github.com/teivah/onecontext v1.3.0 // indirect
-	github.com/mimokpl/kratos-transport/broker v1.9.0 // indirect
-	github.com/mimokpl/kratos-transport/tracing v1.9.0 // indirect
 	github.com/vmihailenco/msgpack/v5 v5.4.1 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
@@ -58,3 +59,5 @@ require (
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/mimokpl/kratos-bootstrap/logger => /Users/sec/codes/mimokpl/mimox/relys/kratos-bootstrap/logger

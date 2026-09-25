@@ -13,12 +13,12 @@ replace (
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
+	github.com/mimokpl/kratos-transport/broker v1.9.1
+	github.com/mimokpl/kratos-transport/broker/nats v1.9.1
+	github.com/mimokpl/kratos-transport/testing v1.9.1
+	github.com/mimokpl/kratos-transport/transport v1.9.1
+	github.com/mimokpl/kratos-transport/transport/keepalive v1.9.1
 	github.com/stretchr/testify v1.11.1
-	github.com/mimokpl/kratos-transport/broker v1.9.0
-	github.com/mimokpl/kratos-transport/broker/nats v1.9.0
-	github.com/mimokpl/kratos-transport/testing v1.9.0
-	github.com/mimokpl/kratos-transport/transport v1.9.0
-	github.com/mimokpl/kratos-transport/transport/keepalive v1.9.0
 	go.opentelemetry.io/otel v1.43.0
 	go.opentelemetry.io/otel/trace v1.43.0
 )
@@ -33,11 +33,12 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.29.0 // indirect
 	github.com/klauspost/compress v1.18.5 // indirect
+	github.com/mimokpl/kratos-bootstrap/logger v1.9.1
+	github.com/mimokpl/kratos-transport/tracing v1.9.1 // indirect
 	github.com/nats-io/nats.go v1.51.0 // indirect
 	github.com/nats-io/nkeys v0.4.15 // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/mimokpl/kratos-transport/tracing v1.9.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.43.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.43.0 // indirect
@@ -56,3 +57,5 @@ require (
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/mimokpl/kratos-bootstrap/logger => /Users/sec/codes/mimokpl/mimox/relys/kratos-bootstrap/logger

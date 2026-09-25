@@ -36,7 +36,7 @@ import (
 	ifaceLock "github.com/RichardKnop/machinery/v2/locks/iface"
 	redisLock "github.com/RichardKnop/machinery/v2/locks/redis"
 
-	"github.com/go-kratos/kratos/v2/log"
+	log "github.com/mimokpl/kratos-bootstrap/logger"
 	kratosTransport "github.com/go-kratos/kratos/v3/transport"
 
 	"github.com/mimokpl/kratos-transport/tracing"

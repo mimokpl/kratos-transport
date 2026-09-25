@@ -8,7 +8,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/go-kratos/kratos/v2/log"
+	log "github.com/mimokpl/kratos-bootstrap/logger"
 	kratosTransport "github.com/go-kratos/kratos/v3/transport"
 	"github.com/mark3labs/mcp-go/mcp"
 	"github.com/mimokpl/kratos-transport/transport/keepalive"

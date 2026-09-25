@@ -4,7 +4,7 @@ import (
 	"time"
 
 	rmqClient "github.com/apache/rocketmq-clients/golang/v5"
-	"github.com/go-kratos/kratos/v2/log"
+	log "github.com/mimokpl/kratos-bootstrap/logger"
 	"github.com/mimokpl/kratos-transport/broker"
 )
 
