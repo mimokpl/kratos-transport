@@ -10,8 +10,8 @@ import (
 	"github.com/zeromicro/go-zero/rest"
 	"github.com/zeromicro/go-zero/rest/httpx"
 
-	kHttp "github.com/go-kratos/kratos/v2/transport/http"
-	"github.com/go-kratos/kratos/v2/transport/http/binding"
+	kHttp "github.com/go-kratos/kratos/v3/transport/http"
+	"github.com/go-kratos/kratos/v3/transport/http/binding"
 	"github.com/stretchr/testify/assert"
 
 	api "github.com/mimokpl/kratos-transport/testing/api/protobuf"

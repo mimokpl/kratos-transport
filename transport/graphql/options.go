@@ -5,8 +5,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/go-kratos/kratos/v2/middleware"
-	kHttp "github.com/go-kratos/kratos/v2/transport/http"
+	"github.com/go-kratos/kratos/v3/middleware"
+	kHttp "github.com/go-kratos/kratos/v3/transport/http"
 )
 
 type ServerOption func(*Server)

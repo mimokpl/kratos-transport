@@ -12,8 +12,8 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/go-kratos/kratos/v2/encoding"
-	kratosTransport "github.com/go-kratos/kratos/v2/transport"
+	"github.com/go-kratos/kratos/v3/encoding"
+	kratosTransport "github.com/go-kratos/kratos/v3/transport"
 	"github.com/pion/webrtc/v4"
 
 	"github.com/mimokpl/kratos-transport/broker"

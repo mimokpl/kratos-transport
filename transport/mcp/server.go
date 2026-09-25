@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 
 	"github.com/go-kratos/kratos/v2/log"
-	kratosTransport "github.com/go-kratos/kratos/v2/transport"
+	kratosTransport "github.com/go-kratos/kratos/v3/transport"
 	"github.com/mark3labs/mcp-go/mcp"
 	"github.com/mimokpl/kratos-transport/transport/keepalive"
 

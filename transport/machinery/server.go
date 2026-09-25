@@ -37,7 +37,7 @@ import (
 	redisLock "github.com/RichardKnop/machinery/v2/locks/redis"
 
 	"github.com/go-kratos/kratos/v2/log"
-	kratosTransport "github.com/go-kratos/kratos/v2/transport"
+	kratosTransport "github.com/go-kratos/kratos/v3/transport"
 
 	"github.com/mimokpl/kratos-transport/tracing"
 	"github.com/mimokpl/kratos-transport/transport/keepalive"

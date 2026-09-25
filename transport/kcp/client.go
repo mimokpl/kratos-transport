@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-kratos/kratos/v2/encoding"
+	"github.com/go-kratos/kratos/v3/encoding"
 	"github.com/mimokpl/kratos-transport/broker"
 	"github.com/xtaci/kcp-go/v5"
 )

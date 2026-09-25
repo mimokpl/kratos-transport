@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-kratos/kratos/v2/encoding"
+	"github.com/go-kratos/kratos/v3/encoding"
 	"github.com/pion/webrtc/v4"
 
 	"github.com/mimokpl/kratos-transport/broker"

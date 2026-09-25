@@ -12,9 +12,9 @@ require (
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/go-stomp/stomp/v3 v3.1.5
 	github.com/stretchr/testify v1.11.1
-	github.com/mimokpl/kratos-transport/broker v1.1.1
-	github.com/mimokpl/kratos-transport/testing v1.1.1
-	github.com/mimokpl/kratos-transport/tracing v1.1.1
+	github.com/mimokpl/kratos-transport/broker v1.9.0
+	github.com/mimokpl/kratos-transport/testing v1.9.0
+	github.com/mimokpl/kratos-transport/tracing v1.9.0
 	go.opentelemetry.io/otel v1.43.0
 	go.opentelemetry.io/otel/trace v1.43.0
 )

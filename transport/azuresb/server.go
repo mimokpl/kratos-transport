@@ -8,7 +8,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	kratosTransport "github.com/go-kratos/kratos/v2/transport"
+	kratosTransport "github.com/go-kratos/kratos/v3/transport"
 
 	"github.com/mimokpl/kratos-transport/broker"
 	"github.com/mimokpl/kratos-transport/broker/azuresb"

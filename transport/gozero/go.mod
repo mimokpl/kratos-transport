@@ -13,8 +13,8 @@ replace (
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/stretchr/testify v1.11.1
-	github.com/mimokpl/kratos-transport/testing v1.1.1
-	github.com/mimokpl/kratos-transport/transport v1.1.1
+	github.com/mimokpl/kratos-transport/testing v1.9.0
+	github.com/mimokpl/kratos-transport/transport v1.9.0
 	github.com/zeromicro/go-zero v1.10.1
 )
 
@@ -47,8 +47,8 @@ require (
 	github.com/prometheus/procfs v0.20.1 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/titanous/json5 v1.0.0 // indirect
-	github.com/mimokpl/kratos-transport/broker v1.1.1 // indirect
-	github.com/mimokpl/kratos-transport/tracing v1.1.1 // indirect
+	github.com/mimokpl/kratos-transport/broker v1.9.0 // indirect
+	github.com/mimokpl/kratos-transport/tracing v1.9.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel v1.43.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.43.0 // indirect

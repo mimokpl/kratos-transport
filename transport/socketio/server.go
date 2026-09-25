@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/go-kratos/kratos/v2/encoding"
-	kratosTransport "github.com/go-kratos/kratos/v2/transport"
+	"github.com/go-kratos/kratos/v3/encoding"
+	kratosTransport "github.com/go-kratos/kratos/v3/transport"
 
 	socketIo "github.com/googollee/go-socket.io"
 	"github.com/googollee/go-socket.io/engineio"

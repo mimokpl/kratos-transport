@@ -8,9 +8,9 @@ import (
 	"net/url"
 	"sync/atomic"
 
-	"github.com/go-kratos/kratos/v2/errors"
+	"github.com/go-kratos/kratos/v3/errors"
 	"github.com/go-kratos/kratos/v2/log"
-	kratosTransport "github.com/go-kratos/kratos/v2/transport"
+	kratosTransport "github.com/go-kratos/kratos/v3/transport"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/health"

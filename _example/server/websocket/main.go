@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/go-kratos/kratos/v2"
+	"github.com/go-kratos/kratos/v3"
 	"github.com/go-kratos/kratos/v2/log"
 
 	"github.com/mimokpl/kratos-transport/transport/websocket"

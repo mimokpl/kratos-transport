@@ -1,6 +1,6 @@
 package kcp
 
-import "github.com/go-kratos/kratos/v2/encoding"
+import "github.com/go-kratos/kratos/v3/encoding"
 
 type ClientOption func(o *Client)
 

@@ -11,10 +11,10 @@ import (
 	"github.com/fasthttp/router"
 	"github.com/valyala/fasthttp"
 
-	"github.com/go-kratos/kratos/v2/errors"
-	"github.com/go-kratos/kratos/v2/middleware"
-	kratosTransport "github.com/go-kratos/kratos/v2/transport"
-	kHttp "github.com/go-kratos/kratos/v2/transport/http"
+	"github.com/go-kratos/kratos/v3/errors"
+	"github.com/go-kratos/kratos/v3/middleware"
+	kratosTransport "github.com/go-kratos/kratos/v3/transport"
+	kHttp "github.com/go-kratos/kratos/v3/transport/http"
 
 	"github.com/mimokpl/kratos-transport/transport"
 )

@@ -7,8 +7,8 @@ import (
 	hertz "github.com/cloudwego/hertz/pkg/app/server"
 	"github.com/cloudwego/hertz/pkg/common/config"
 
-	"github.com/go-kratos/kratos/v2/middleware"
-	kHttp "github.com/go-kratos/kratos/v2/transport/http"
+	"github.com/go-kratos/kratos/v3/middleware"
+	kHttp "github.com/go-kratos/kratos/v3/transport/http"
 )
 
 type ServerOption func(*Server)

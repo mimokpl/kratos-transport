@@ -13,9 +13,9 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/rabbitmq/amqp091-go v1.11.0
 	github.com/stretchr/testify v1.11.1
-	github.com/mimokpl/kratos-transport/broker v1.1.1
-	github.com/mimokpl/kratos-transport/testing v1.1.1
-	github.com/mimokpl/kratos-transport/tracing v1.1.1
+	github.com/mimokpl/kratos-transport/broker v1.9.0
+	github.com/mimokpl/kratos-transport/testing v1.9.0
+	github.com/mimokpl/kratos-transport/tracing v1.9.0
 	go.opentelemetry.io/otel v1.43.0
 	go.opentelemetry.io/otel/trace v1.43.0
 )

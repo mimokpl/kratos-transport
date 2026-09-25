@@ -8,7 +8,7 @@ import (
 
 	"github.com/hibiken/asynq"
 
-	"github.com/go-kratos/kratos/v2"
+	"github.com/go-kratos/kratos/v3"
 	"github.com/go-kratos/kratos/v2/log"
 
 	asynqServer "github.com/mimokpl/kratos-transport/transport/asynq"

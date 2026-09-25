@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-kratos/kratos/v2/encoding"
-	kratosTransport "github.com/go-kratos/kratos/v2/transport"
+	"github.com/go-kratos/kratos/v3/encoding"
+	kratosTransport "github.com/go-kratos/kratos/v3/transport"
 
 	"github.com/mimokpl/kratos-transport/broker"
 	"github.com/mimokpl/kratos-transport/transport"

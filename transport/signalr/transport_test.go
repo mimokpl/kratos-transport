@@ -7,7 +7,7 @@ import (
 	"sort"
 	"testing"
 
-	kratosTransport "github.com/go-kratos/kratos/v2/transport"
+	kratosTransport "github.com/go-kratos/kratos/v3/transport"
 )
 
 func TestTransport_Kind(t *testing.T) {

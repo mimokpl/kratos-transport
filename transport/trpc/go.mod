@@ -12,7 +12,7 @@ replace (
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
-	github.com/mimokpl/kratos-transport/transport v1.1.1
+	github.com/mimokpl/kratos-transport/transport v1.9.0
 	trpc.group/trpc-go/trpc-go v1.0.3
 )
 
@@ -39,8 +39,8 @@ require (
 	github.com/panjf2000/ants/v2 v2.12.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/spf13/cast v1.10.0 // indirect
-	github.com/mimokpl/kratos-transport/broker v1.1.1 // indirect
-	github.com/mimokpl/kratos-transport/tracing v1.1.1 // indirect
+	github.com/mimokpl/kratos-transport/broker v1.9.0 // indirect
+	github.com/mimokpl/kratos-transport/tracing v1.9.0 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.70.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect

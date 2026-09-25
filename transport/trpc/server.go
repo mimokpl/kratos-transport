@@ -9,7 +9,7 @@ import (
 	trpcGo "trpc.group/trpc-go/trpc-go"
 	trpcServer "trpc.group/trpc-go/trpc-go/server"
 
-	kratosTransport "github.com/go-kratos/kratos/v2/transport"
+	kratosTransport "github.com/go-kratos/kratos/v3/transport"
 
 	"github.com/mimokpl/kratos-transport/transport"
 )

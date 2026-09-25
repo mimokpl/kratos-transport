@@ -10,8 +10,8 @@ import (
 
 	"github.com/kataras/iris/v12"
 
-	"github.com/go-kratos/kratos/v2/errors"
-	kratosTransport "github.com/go-kratos/kratos/v2/transport"
+	"github.com/go-kratos/kratos/v3/errors"
+	kratosTransport "github.com/go-kratos/kratos/v3/transport"
 
 	"github.com/mimokpl/kratos-transport/transport"
 )
