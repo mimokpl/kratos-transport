@@ -12,8 +12,8 @@ replace (
 require (
 	github.com/fasthttp/router v1.5.4
 	github.com/go-kratos/kratos/v2 v2.9.2
-	github.com/mimokpl/kratos-transport/testing v1.9.1
-	github.com/mimokpl/kratos-transport/transport v1.9.1
+	github.com/mimokpl/kratos-transport/testing v1.9.2
+	github.com/mimokpl/kratos-transport/transport v1.9.2
 	github.com/stretchr/testify v1.11.1
 	github.com/valyala/fasthttp v1.70.0
 )
@@ -31,9 +31,9 @@ require (
 	github.com/gorilla/mux v1.8.1 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.29.0 // indirect
 	github.com/klauspost/compress v1.18.5 // indirect
-	github.com/mimokpl/kratos-bootstrap/logger v1.9.1
-	github.com/mimokpl/kratos-transport/broker v1.9.1 // indirect
-	github.com/mimokpl/kratos-transport/tracing v1.9.1 // indirect
+	github.com/mimokpl/kratos-bootstrap/logger v1.9.2
+	github.com/mimokpl/kratos-transport/broker v1.9.2 // indirect
+	github.com/mimokpl/kratos-transport/tracing v1.9.2 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/savsgio/gotils v0.0.0-20250924091648-bce9a52d7761 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect

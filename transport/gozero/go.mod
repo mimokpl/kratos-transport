@@ -12,8 +12,8 @@ replace (
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
-	github.com/mimokpl/kratos-transport/testing v1.9.1
-	github.com/mimokpl/kratos-transport/transport v1.9.1
+	github.com/mimokpl/kratos-transport/testing v1.9.2
+	github.com/mimokpl/kratos-transport/transport v1.9.2
 	github.com/stretchr/testify v1.11.1
 	github.com/zeromicro/go-zero v1.10.1
 )
@@ -37,9 +37,9 @@ require (
 	github.com/klauspost/compress v1.18.5 // indirect
 	github.com/mattn/go-colorable v0.1.14 // indirect
 	github.com/mattn/go-isatty v0.0.22 // indirect
-	github.com/mimokpl/kratos-bootstrap/logger v1.9.1
-	github.com/mimokpl/kratos-transport/broker v1.9.1 // indirect
-	github.com/mimokpl/kratos-transport/tracing v1.9.1 // indirect
+	github.com/mimokpl/kratos-bootstrap/logger v1.9.2
+	github.com/mimokpl/kratos-transport/broker v1.9.2 // indirect
+	github.com/mimokpl/kratos-transport/tracing v1.9.2 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/openzipkin/zipkin-go v0.4.3 // indirect
 	github.com/pelletier/go-toml/v2 v2.3.0 // indirect

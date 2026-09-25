@@ -235,13 +235,13 @@ func (b *rocketmqBroker) createProducer() (rocketmq.Producer, error) {
 
 	p, err := rocketmq.NewProducer(opts...)
 	if err != nil {
-		b.logger.Errorf("new producer error: %s", err.Error())
+		b.logger.Errorf(context.Background(), "new producer error: %s", err.Error())
 		return nil, err
 	}
 
 	err = p.Start()
 	if err != nil {
-		b.logger.Errorf("[rocketmq]: start producer error: %s", err.Error())
+		b.logger.Errorf(context.Background(), "[rocketmq]: start producer error: %s", err.Error())
 		return nil, err
 	}
 
@@ -386,7 +386,7 @@ func (b *rocketmqBroker) publish(ctx context.Context, topic string, msg *broker.
 	var ret *primitive.SendResult
 	ret, err = p.SendSync(ctx, rMsg)
 	if err != nil {
-		b.logger.Errorf("[rocketmq]: send message error: %s\n", err)
+		b.logger.Errorf(ctx, "[rocketmq]: send message error: %s\n", err)
 
 		// If using a cached producer, remove it and retry with a new one
 		if cached {
@@ -454,7 +454,7 @@ func (b *rocketmqBroker) Subscribe(topic string, handler broker.Handler, binder 
 
 	if err = c.Subscribe(topic, consumer.MessageSelector{},
 		func(ctx context.Context, msgs ...*primitive.MessageExt) (consumer.ConsumeResult, error) {
-			//b.logger.Infof("[rocketmq] subscribe callback: %v \n", msgs)
+			//b.logger.Infof(ctx, "[rocketmq] subscribe callback: %v \n", msgs)
 
 			var errSub error
 			hasError := false
@@ -471,7 +471,7 @@ func (b *rocketmqBroker) Subscribe(topic string, handler broker.Handler, binder 
 
 					if errSub = broker.Unmarshal(b.options.Codec, msg.Body, &m.Body); errSub != nil {
 						p.err = errSub
-						b.logger.Errorf("%s", errSub.Error())
+						b.logger.Errorf(ctx, "%s", errSub.Error())
 						b.finishConsumerSpan(newCtx, span, errSub)
 						hasError = true
 						continue
@@ -481,7 +481,7 @@ func (b *rocketmqBroker) Subscribe(topic string, handler broker.Handler, binder 
 				}
 
 				if errSub = sub.handler(newCtx, p); errSub != nil {
-					b.logger.Errorf("process message failed: %v", errSub)
+					b.logger.Errorf(ctx, "process message failed: %v", errSub)
 					b.finishConsumerSpan(newCtx, span, errSub)
 					hasError = true
 					continue
@@ -489,7 +489,7 @@ func (b *rocketmqBroker) Subscribe(topic string, handler broker.Handler, binder 
 
 				if sub.options.AutoAck {
 					if errSub = p.Ack(); errSub != nil {
-						b.logger.Errorf("unable to commit msg: %v", errSub)
+						b.logger.Errorf(ctx, "unable to commit msg: %v", errSub)
 						b.finishConsumerSpan(newCtx, span, errSub)
 						hasError = true
 						continue
@@ -504,12 +504,12 @@ func (b *rocketmqBroker) Subscribe(topic string, handler broker.Handler, binder 
 			}
 			return consumer.ConsumeSuccess, nil
 		}); err != nil {
-		b.logger.Errorf("%s", err.Error())
+		b.logger.Errorf(context.Background(), "%s", err.Error())
 		return nil, err
 	}
 
 	if err = c.Start(); err != nil {
-		b.logger.Errorf("%s", err.Error())
+		b.logger.Errorf(context.Background(), "%s", err.Error())
 		return nil, err
 	}
 

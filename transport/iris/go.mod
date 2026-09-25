@@ -13,8 +13,8 @@ replace (
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/kataras/iris/v12 v12.2.11
-	github.com/mimokpl/kratos-transport/testing v1.9.1
-	github.com/mimokpl/kratos-transport/transport v1.9.1
+	github.com/mimokpl/kratos-transport/testing v1.9.2
+	github.com/mimokpl/kratos-transport/transport v1.9.2
 	github.com/stretchr/testify v1.11.1
 )
 
@@ -52,9 +52,9 @@ require (
 	github.com/mailgun/raymond/v2 v2.0.48 // indirect
 	github.com/mailru/easyjson v0.9.2 // indirect
 	github.com/microcosm-cc/bluemonday v1.0.27 // indirect
-	github.com/mimokpl/kratos-bootstrap/logger v1.9.1
-	github.com/mimokpl/kratos-transport/broker v1.9.1 // indirect
-	github.com/mimokpl/kratos-transport/tracing v1.9.1 // indirect
+	github.com/mimokpl/kratos-bootstrap/logger v1.9.2
+	github.com/mimokpl/kratos-transport/broker v1.9.2 // indirect
+	github.com/mimokpl/kratos-transport/tracing v1.9.2 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/schollz/closestmatch v2.1.0+incompatible // indirect

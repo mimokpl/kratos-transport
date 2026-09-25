@@ -7,13 +7,17 @@ require (
 	github.com/apache/thrift v0.23.0
 	github.com/vektah/gqlparser/v2 v2.5.32
 	google.golang.org/grpc v1.80.0
-	google.golang.org/protobuf v1.36.11
+	google.golang.org/protobuf v1.36.12
+)
+
+require (
+	github.com/stretchr/testify v1.12.1 // indirect
+	go.opentelemetry.io/otel v1.46.0 // indirect
 )
 
 require (
 	github.com/agnivade/levenshtein v1.2.1 // indirect
 	github.com/google/uuid v1.6.0 // indirect
-	github.com/mimokpl/kratos-bootstrap/logger v1.9.1
 	github.com/sosodev/duration v1.4.0 // indirect
 	golang.org/x/net v0.53.0 // indirect
 	golang.org/x/sync v0.20.0 // indirect

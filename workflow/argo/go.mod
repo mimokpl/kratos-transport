@@ -1,10 +1,15 @@
 module github.com/mimokpl/kratos-transport/workflow/argo
 
-go 1.23
+go 1.25.0
+
+require github.com/mimokpl/kratos-bootstrap/logger v1.9.2
 
 require (
-	github.com/go-kratos/kratos/v2 v2.8.4
-	github.com/mimokpl/kratos-bootstrap/logger v1.9.1
+	github.com/cespare/xxhash/v2 v2.3.0 // indirect
+	github.com/mimokpl/kratos-bootstrap/api v1.9.2 // indirect
+	go.opentelemetry.io/otel v1.46.0 // indirect
+	go.opentelemetry.io/otel/trace v1.46.0 // indirect
+	google.golang.org/protobuf v1.36.12 // indirect
 )
 
 replace github.com/mimokpl/kratos-bootstrap/logger => /Users/sec/codes/mimokpl/mimox/relys/kratos-bootstrap/logger
