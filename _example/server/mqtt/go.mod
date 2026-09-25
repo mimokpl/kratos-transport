@@ -17,10 +17,7 @@ require (
 	github.com/mimokpl/kratos-transport/transport/mqtt v1.9.2
 )
 
-require (
-	github.com/kr/text v0.2.0 // indirect
-	github.com/mimokpl/kratos-bootstrap/api v1.9.2 // indirect
-)
+require github.com/mimokpl/kratos-bootstrap/api v1.9.2 // indirect
 
 require (
 	github.com/cenkalti/backoff/v5 v5.0.3 // indirect

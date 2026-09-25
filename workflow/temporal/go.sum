@@ -25,8 +25,8 @@ github.com/grpc-ecosystem/grpc-gateway/v2 v2.29.0 h1:5VipnvEpbqr2gA2VbM+nYVbkIF2
 github.com/grpc-ecosystem/grpc-gateway/v2 v2.29.0/go.mod h1:Hyl3n6Twe1hvtd9XUXDec4pTvgMSEixRuQKPTMH2bNs=
 github.com/kisielk/errcheck v1.5.0/go.mod h1:pFxgyoBC7bSaBwPgfKdkLd5X25qrDl4LWUI2bnpBCr8=
 github.com/kisielk/gotool v1.0.0/go.mod h1:XhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+oQHNcck=
-github.com/mimokpl/kratos-bootstrap/api v1.9.1 h1:v+PjDRGJmwaL5Fn76yT2Z7yNn9N/av0RZEwnOoG97yk=
-github.com/mimokpl/kratos-bootstrap/api v1.9.1/go.mod h1:fTetu2KU3H1E52fKEnUx7BrduJAl/47SynuwnJnE0HE=
+github.com/mimokpl/kratos-bootstrap/api v1.9.2 h1:P9N1ku4ulWnS+BJkBkSfcqZorC3+BfVoXIKoX7kAa4A=
+github.com/mimokpl/kratos-bootstrap/api v1.9.2/go.mod h1:fTetu2KU3H1E52fKEnUx7BrduJAl/47SynuwnJnE0HE=
 github.com/nexus-rpc/sdk-go v0.6.0 h1:QRgnP2zTbxEbiyWG/aXH8uSC5LV/Mg1fqb19jb4DBlo=
 github.com/nexus-rpc/sdk-go v0.6.0/go.mod h1:FHdPfVQwRuJFZFTF0Y2GOAxCrbIBNrcPna9slkGKPYk=
 github.com/robfig/cron v1.2.0 h1:ZjScXvvxeQ63Dbyxy76Fj3AT3Ut0aKsyd2/tl3DTMuQ=

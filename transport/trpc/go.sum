@@ -57,8 +57,8 @@ github.com/lestrrat-go/envload v0.0.0-20180220234015-a3eb8ddeffcc h1:RKf14vYWi2t
 github.com/lestrrat-go/envload v0.0.0-20180220234015-a3eb8ddeffcc/go.mod h1:kopuH9ugFRkIXf3YoqHKyrJ9YfUFsckUU9S7B+XP+is=
 github.com/lestrrat-go/strftime v1.1.1 h1:zgf8QCsgj27GlKBy3SU9/8MMgegZ8UCzlCyHYrUF0QU=
 github.com/lestrrat-go/strftime v1.1.1/go.mod h1:YDrzHJAODYQ+xxvrn5SG01uFIQAeDTzpxNVppCz7Nmw=
-github.com/mimokpl/kratos-bootstrap/api v1.9.1 h1:v+PjDRGJmwaL5Fn76yT2Z7yNn9N/av0RZEwnOoG97yk=
-github.com/mimokpl/kratos-bootstrap/api v1.9.1/go.mod h1:fTetu2KU3H1E52fKEnUx7BrduJAl/47SynuwnJnE0HE=
+github.com/mimokpl/kratos-bootstrap/api v1.9.2 h1:P9N1ku4ulWnS+BJkBkSfcqZorC3+BfVoXIKoX7kAa4A=
+github.com/mimokpl/kratos-bootstrap/api v1.9.2/go.mod h1:fTetu2KU3H1E52fKEnUx7BrduJAl/47SynuwnJnE0HE=
 github.com/mitchellh/mapstructure v1.5.0 h1:jeMsZIYE/09sWLaz43PL7Gy6RuMjD2eJVyuac5Z2hdY=
 github.com/mitchellh/mapstructure v1.5.0/go.mod h1:bFUtVrKA4DC2yAKiSyO/QUcy7e+RRV2QTWOzhPopBRo=
 github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421/go.mod h1:6dJC0mAP4ikYIbvyc7fijjWJddQyLn8Ig3JB5CqoB9Q=

@@ -95,8 +95,8 @@ github.com/lufia/plan9stats v0.0.0-20230326075908-cb1d2100619a h1:N9zuLhTvBSRt0g
 github.com/lufia/plan9stats v0.0.0-20230326075908-cb1d2100619a/go.mod h1:JKx41uQRwqlTZabZc+kILPrO/3jlKnQ2Z8b7YiVw5cE=
 github.com/magiconair/properties v1.8.7 h1:IeQXZAiQcpL9mgcAe1Nu6cX9LLw6ExEHKjN0VQdvPDY=
 github.com/magiconair/properties v1.8.7/go.mod h1:Dhd985XPs7jluiymwWYZ0G4Z61jb3vdS329zhj2hYo0=
-github.com/mimokpl/kratos-bootstrap/api v1.9.1 h1:v+PjDRGJmwaL5Fn76yT2Z7yNn9N/av0RZEwnOoG97yk=
-github.com/mimokpl/kratos-bootstrap/api v1.9.1/go.mod h1:fTetu2KU3H1E52fKEnUx7BrduJAl/47SynuwnJnE0HE=
+github.com/mimokpl/kratos-bootstrap/api v1.9.2 h1:P9N1ku4ulWnS+BJkBkSfcqZorC3+BfVoXIKoX7kAa4A=
+github.com/mimokpl/kratos-bootstrap/api v1.9.2/go.mod h1:fTetu2KU3H1E52fKEnUx7BrduJAl/47SynuwnJnE0HE=
 github.com/moby/docker-image-spec v1.3.1 h1:jMKff3w6PgbfSa69GfNg+zN/XLhfXJGnEx3Nl2EsFP0=
 github.com/moby/docker-image-spec v1.3.1/go.mod h1:eKmb5VW8vQEh/BAr2yvVNvuiJuY6UIocYsFu/DxxRpo=
 github.com/moby/patternmatcher v0.6.0 h1:GmP9lR19aU5GqSSFko+5pRqHi+Ohk1O69aFiKkVGiPk=

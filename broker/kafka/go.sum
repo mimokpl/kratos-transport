@@ -19,8 +19,8 @@ github.com/grpc-ecosystem/grpc-gateway/v2 v2.29.0 h1:5VipnvEpbqr2gA2VbM+nYVbkIF2
 github.com/grpc-ecosystem/grpc-gateway/v2 v2.29.0/go.mod h1:Hyl3n6Twe1hvtd9XUXDec4pTvgMSEixRuQKPTMH2bNs=
 github.com/klauspost/compress v1.18.5 h1:/h1gH5Ce+VWNLSWqPzOVn6XBO+vJbCNGvjoaGBFW2IE=
 github.com/klauspost/compress v1.18.5/go.mod h1:cwPg85FWrGar70rWktvGQj8/hthj3wpl0PGDogxkrSQ=
-github.com/mimokpl/kratos-bootstrap/api v1.9.1 h1:v+PjDRGJmwaL5Fn76yT2Z7yNn9N/av0RZEwnOoG97yk=
-github.com/mimokpl/kratos-bootstrap/api v1.9.1/go.mod h1:fTetu2KU3H1E52fKEnUx7BrduJAl/47SynuwnJnE0HE=
+github.com/mimokpl/kratos-bootstrap/api v1.9.2 h1:P9N1ku4ulWnS+BJkBkSfcqZorC3+BfVoXIKoX7kAa4A=
+github.com/mimokpl/kratos-bootstrap/api v1.9.2/go.mod h1:fTetu2KU3H1E52fKEnUx7BrduJAl/47SynuwnJnE0HE=
 github.com/pierrec/lz4/v4 v4.1.26 h1:GrpZw1gZttORinvzBdXPUXATeqlJjqUG/D87TKMnhjY=
 github.com/pierrec/lz4/v4 v4.1.26/go.mod h1:EoQMVJgeeEOMsCqCzqFm2O0cJvljX2nGZjcRIPL34O4=
 github.com/segmentio/kafka-go v0.4.51 h1:JgDPPG75tC1rWIS2Me6MwcvXJ6f49UQ4HjAOef71Hno=
